@@ -1,0 +1,65 @@
+.filters-wrapper {
+  position: relative;
+}
+
+.filters {
+  padding: 0 13px 0 10px;
+  width: 180px;
+  height: 32px;
+  border-radius: 36px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-options {
+  position: absolute;
+  top: 45px;
+  width: 238px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2f2f2f;
+  background: #fff;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.filter-option {
+  padding: 16px 0 16px 20px;
+  border-bottom: 1px solid #d8d7dd;
+  display: flex;
+  align-items: center;
+}
+
+.filter-option:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.filter-option:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.expanded {
+  opacity: 1;
+  transform: translateY(15px);
+}
+
+.option-label {
+  padding-left: 16px;
+}
+
+.active-option {
+  background: #efeef1;
+}

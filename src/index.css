@@ -1,0 +1,144 @@
+:root {
+  color: #ffffff;
+  background-color: #130b2b;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+h3 {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+input[type="radio"] {
+  margin: 0;
+  accent-color: #232323;
+  width: 16px;
+  height: 16px;
+}
+
+.input-wrapper {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input {
+  padding: 0 15px;
+  height: 48px;
+  border-radius: 5px;
+}
+
+.text-input::placeholder {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #d2d2d2;
+}
+
+.button {
+  letter-spacing: 0.02em;
+  background: #2d1a67;
+  color: #ffffff;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.horizontal {
+  margin: 0;
+  border-top: 2px solid;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.error-message {
+  color: red;
+}
+
+/* Icons */
+
+.icon {
+  display: inline-block;
+}
+
+.icon-cancel {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-image: url("./assets/cancel.svg");
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.icon-dialog {
+  background-image: url("./assets/dialog.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.icon-arrow {
+  background-image: url("./assets/arrow.svg");
+  width: 8px;
+  height: 5px;
+  cursor: pointer;
+  transform: rotate(180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.icon-arrow_expanded {
+  transform: rotate(0);
+}
+
+/* Movies Page */
+
+.movies {
+  padding-top: 56px;
+  padding-bottom: 323px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.movies-cards-wrapper {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.movies-count {
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #767e94;
+}

@@ -1,0 +1,214 @@
+.movie-popup {
+  display: flex;
+}
+
+.movie-popup-info {
+  padding: 0 0 24px;
+  flex: 1;
+  background: #2d1a67;
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.movie-popup-info__img {
+  width: 618px;
+  height: 372px;
+  border-bottom: 3px solid #fff;
+}
+
+.movie-popup-info__title {
+  margin: 20px 0 16px;
+  padding: 0 16px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.movie-popup-info__description {
+  margin-bottom: 12px;
+  padding: 0 16px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.movie-popup-genres {
+  margin-top: 12px;
+  margin-bottom: 17px;
+  padding: 0 16px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.movie-popup-genres__title {
+  font-weight: 700;
+}
+
+.movie-popup-summary {
+  margin-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+  gap: 15px;
+}
+
+.movie-popup-summary__name {
+  margin: 0;
+  max-width: 212px;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+  overflow: overlay;
+}
+
+.movie-popup-summary__name::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-popup-summary__date {
+  text-transform: uppercase;
+}
+
+.book-movie-ticket {
+  position: relative;
+  padding: 24px;
+  background: #130b2b;
+  flex: 1;
+}
+
+.book-movie-ticket__available-title {
+  margin-bottom: 18px;
+}
+
+.book-movie-ticket__count-title {
+  margin-bottom: 20px;
+}
+
+.book-movie-ticket__contact-title {
+  margin-bottom: 16px;
+}
+
+.available-dates {
+  margin: 18px 0;
+  max-width: 610px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 24px;
+}
+
+.active-date {
+  border: 2px solid #fff;
+  cursor: auto;
+}
+
+.tickets-quantity {
+  font-family: Inter, Arial, sans-serif;
+}
+
+.quantity-border {
+  margin: 0 auto;
+  width: 182px;
+  height: 56px;
+  border-radius: 50px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+.quantity-form {
+  width: 182px;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-form__plus,
+.quantity-form__minus {
+  padding: 0;
+  text-align: center;
+  letter-spacing: -0.9px;
+  height: 56px;
+  width: 56px;
+  border-radius: 100%;
+
+  color: #fff;
+  background: #2d1a67;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-form__minus {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/minus.svg");
+  color: #fff;
+}
+
+.quantity-form__plus {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/plus.svg");
+}
+
+.quantity-form__number {
+  width: 30px;
+  height: 30px;
+  letter-spacing: -0.9px;
+  color: #2d1a67;
+  text-align: center;
+  border: none;
+}
+
+.tickets-available {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.movie-popup-buttons {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-popup-buttons__button {
+  padding: 18px 85px;
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  border-radius: 16px;
+}
+
+.movie-popup-buttons__button:disabled {
+  background: #796d9e;
+  cursor: auto;
+}
+
+.available-dates__no-available {
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+  border-radius: 16px;
+  color: #fff;
+  background: #2d1a67;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

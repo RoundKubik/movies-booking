@@ -1,0 +1,47 @@
+.movie-card {
+  padding: 8px;
+  width: 282px;
+  border-radius: 12px;
+  background: #20283e;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.movie-poster {
+  height: 410px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-info {
+  width: 282px;
+}
+
+.movie-title {
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.movie-genres {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.movie-genres__title {
+  font-weight: 700;
+}
+
+.movie-card__button {
+  padding: 6px 117px;
+  border-radius: 8px;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
